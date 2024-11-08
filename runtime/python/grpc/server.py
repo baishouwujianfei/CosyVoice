@@ -84,7 +84,7 @@ if __name__ == '__main__':
                         default=4)
     parser.add_argument('--model_dir',
                         type=str,
-                        default='iic/CosyVoice-300M',
+                        default='iic/CosyVoice-300M-Instruct',
                         help='local path or modelscope repo id')
     args = parser.parse_args()
     main()
